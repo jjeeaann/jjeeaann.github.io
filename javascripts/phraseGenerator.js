@@ -10,7 +10,22 @@ var phrases = [	'Two wrongs dont make a right.',
 				'Better late than never.'
 			  ];
 			  
+var currentPhrase;
+			  
 function getPhrase()
 {
-	$('#phraseText').text(phrases[Math.floor(Math.random() * phrases.length)]);
+	var index = currentPhrase;
+	
+	while (index === currentPhrase)
+	{
+		index = getIndex();
+	}
+	
+	$('#phraseText').text(phrases[index]);
+	currentPhrase = index;
+}
+
+function getIndex()
+{
+	return Math.floor(Math.random() * phrases.length);
 }

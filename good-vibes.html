@@ -6,8 +6,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>The Good Vibe Generator</title>
-  <meta name="description" content="A good vibe generator.">
-  <meta name="author" content="The Portable Brain">
+  <meta name="description" content="A positive vibe generator.">
+  <meta name="author" content="Jean Liu">
   <meta name="robots" content="noindex,nofollow"/>
 
   <!-- Mobile Specific Metas
@@ -39,40 +39,33 @@
   <div class="container">
     <div class="column">
       <strong><h1>The Good Vibe Generator</h1></strong>
-      <h3>Hey, you!</h3>
-      <p>We hope you're ready to feel all warm and fuzzy inside.</p>
+      <h3>Users love Altmetric.</h3>
     </div>
-
+ 
+    <div class="row">
+      <div class="eight columns">
+      <p>See what librarians, research administrators, scientists, and publishers are saying about Altmetric.</p>
+      </div>
+      <div class="four columns">
+      <center><button onclick="getPhrase()">Show me the love!</button></center>
+      </div>
+    </div>
   </div>
 </header>
 
-<aside>
-	<div class="container">
-	<div class="column">
-	<br>
-	<center><p id="phraseText">Please enter the secret password to proceed.</p>
-	<input id="password" class="u-half-width" type="text" placeholder="Enter the secret password">
-	<a class="button2" href="good-vibes.html" onclick="javascript:return validatePass()">Abracadabra!</a></center>
-	</div>
-	</div>
-<script>
-function validatePass(){
-    if(document.getElementById('password').value === '1c1ngh0w3r'){
-        return true;
-    }else{
-        alert('Sorry, that is the wrong password!');
-        return false;
-    }
-}
-</script>
-
-</aside>
+<section>
+    <div class="container">
+      <br><img src="images/glyphicons_019_heart_empty.png">
+      <em><p id="phraseText">Click the button above to see what users think about Altmetric.</p></em>
+      </div>
+    </div>
+</section>
 
 <footer>
   <div class="container">
     <div class="column">
     <h5>About this site</h5>
-    <p>Created by <a href="http://www.theportablebrain.com" target="_blank">JL</a> and JW.</p>
+    <p>Created by <a href="http://www.theportablebrain.com" target="_blank">JL</a> and JW, this site displays a collection of anonymised user praise about Altmetric.</p>
     </div>
   </div>
 </footer>

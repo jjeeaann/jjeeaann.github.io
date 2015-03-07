@@ -140,7 +140,6 @@ header {
   padding-bottom: 3em;
   padding-top: 8%;
   font-weight: 400;
-  height: 200px;
   margin-bottom: 3em;
 }
 section {
@@ -480,7 +479,6 @@ hr {
 
 /* Self Clearing Goodness */
 .container:after,
-.column:after,
 .row:after,
 .u-cf {
   content: "";

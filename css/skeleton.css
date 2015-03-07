@@ -137,11 +137,11 @@ header {
   background-color: #FC7E12;
   background-size: cover;
   color: #000;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-top: 8%;
   font-weight: 400;
-  margin-bottom: 3em;
-  min-height: 280px;
+  margin-bottom: 2em;
+  min-height: 250px;
 }
 section {
   padding-top: 2em;

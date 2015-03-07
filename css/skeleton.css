@@ -143,20 +143,20 @@ header {
   margin-bottom: 3em;
 }
 section {
-  padding-top: 1.5em;
-  height: 180px;
-  padding-bottom:3.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  min-height: 160px;
 }
 aside {
   padding-top: 1%;
-  height: 180px;
   padding-bottom:1.5em;
   margin-bottom: 3em;
 }
 footer {
   background-color: #000000;
   background-size: cover;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 3em;
   padding-top: 2em;
   font-weight: 400;
@@ -165,6 +165,7 @@ footer {
 img {
   float: right;
   padding-left: 3em;
+  padding-bottom:1em;
 }
 
 
@@ -197,7 +198,7 @@ p {
 #phraseText{
   color:#000;
   font-weight:400; 
-  font-size: 1.45em; 
+  font-size: 1.3em; 
 }
 
 /* Links

@@ -141,6 +141,7 @@ header {
   padding-top: 8%;
   font-weight: 400;
   margin-bottom: 3em;
+  min-height: 280px;
 }
 section {
   padding-top: 2em;
@@ -204,9 +205,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #FF0000; }
 a:hover {
-  color: #0FA0CE; }
+  color: #FF0000; }
 
 
 /* Buttons
@@ -453,9 +454,6 @@ form {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
-  box-sizing: border-box; }
-.u-half-width {
-  width: 50%;
   box-sizing: border-box; }
 .u-max-full-width {
   max-width: 100%;

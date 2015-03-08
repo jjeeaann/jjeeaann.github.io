@@ -47,8 +47,10 @@
 	<div class="column">
 	<br>
 	<center><p id="phraseText">Please enter the secret password to proceed.</p>
-	<input id="password" type="text" placeholder="Enter password">
-	<a class="button2" href="good-vibes.html" onclick="javascript:return validatePass()">Abracadabra!</a></center>
+  <span class="input input--hoshi">
+    <input id="password" placeholder="Enter password" class="input__field input__field--hoshi" type="text" />
+    <label class="input__label input__label--hoshi input__label--hoshi-color-1"></span>
+	<br><a class="button2" href="good-vibes.html" onclick="javascript:return validatePass()">Abracadabra!</a></center>
 	</div>
 	</div>
 <script>
@@ -61,6 +63,8 @@ function validatePass(){
     }
 }
 </script>
+
+<!--<input id="password" type="text" placeholder="Enter password">-->
 
 </aside>
 

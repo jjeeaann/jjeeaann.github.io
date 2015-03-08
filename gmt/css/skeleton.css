@@ -153,10 +153,12 @@ section {
   min-height: 80px;
 }
 aside {
-  padding-top: 1%;
-  padding-bottom:1.5em;
-  margin-bottom: 3em;
+  background-color: #EBE084;
+  padding-bottom: 2em;
+  margin-top: 1em;
+  padding-top: 2em;
 }
+
 footer {
   background-color: #5D9600;
   color: #000;
@@ -201,15 +203,16 @@ p {
   color:#fff;
   font-weight:400; 
   font-size: 2em;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
 }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #aaa; }
 a:hover {
-  color: #0FA0CE; }
+  color: #ddd; }
 
 
 /* Buttons
@@ -246,8 +249,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #fff;
-  border-color: #fff;
+  color: #99F700;
+  border-color: #EBE084;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -375,7 +378,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px dashed #000; }
 th:first-child,
 td:first-child {
   padding-left: 0; }

@@ -377,14 +377,14 @@ pre > code {
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px dashed #000; }
 th:first-child,
 td:first-child {
-  padding-left: 0; }
+  padding-left: 0px; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 0px; }
 
 
 /* Spacing

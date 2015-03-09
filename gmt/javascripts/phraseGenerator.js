@@ -1,4 +1,4 @@
-var phrases = [	'Fake Nando’s (makes 4 portions)',
+var phrases = [	'Ace Nando’s (makes 4 portions)',
 				'Chicken pad thai (makes 4 portions)',
 				'Slow cooker BBQ ribs (makes 4-5 portions)',
 				'Slow cooker pulled pork (makes 5+ portions)',

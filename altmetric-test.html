@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>The Good Vibe Generator</title>
+  <meta name="description" content="A good vibe generator.">
+  <meta name="author" content="The Portable Brain">
+  <meta name="robots" content="noindex,nofollow"/>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <script src="javascripts/jquery-1.11.1.js"></script>
+  <script src="javascripts/phraseGenerator.js"></script>
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header>
+  <div class="container">
+    <div class="column">
+      <strong><h1>The Good Vibe Generator</h1></strong>
+      <h3>Hey, you!</h3>
+      <p>Hope you're ready to feel all warm and fuzzy inside.</p>
+    </div>
+
+  </div>
+</header>
+
+<aside>
+	<div class="container">
+	<div class="column">
+	<p>Simple text badge</p>
+	<div class='altmetric-embed' data-badge-type='text' data-doi='10.1371/journal.pone.0071275'></div>
+	<br><br>
+	<p>Text with popover</p>
+	<div id='badge_to_style' class='altmetric-embed' data-badge-type='text' data-badge-popover='right' data-doi='10.1371/journal.pone.0071275'></div>
+	<style>
+	#badge_to_style span, a:hover  {
+	    font-style: italic;
+	    color: #336699;
+	}
+	#badge_to_style span:before {
+	    content: "Altmetric score of ";
+	}
+	</style>
+    <br><br>
+	<p>Text badge with details on right</p>
+	<div class='altmetric-embed' data-badge-type='text' data-badge-details='right' data-doi='10.1371/journal.pone.0071275'></div>
+	<br><br>
+	<p>Invalid DOI</p>
+	<div class='altmetric-embed' data-badge-type='text' data-badge-popover='left' data-doi='10.1038/519119axxx'></div>
+	</div>
+	</div>
+
+</aside>
+
+<footer>
+  <div class="container">
+    <div class="column">
+    <strong><h5>About this site</h5></strong>
+    <p>Made by <a href="http://www.theportablebrain.com" target="_blank">JL</a> and JW.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

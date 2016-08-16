@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Altmetric Badges</title>
+  <meta name="description" content="A good vibe generator.">
+  <meta name="author" content="The Portable Brain">
+  <meta name="robots" content="noindex,nofollow"/>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <script src="javascripts/jquery-1.11.1.js"></script>
+  <script src="javascripts/phraseGenerator.js"></script>
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header>
+  <div class="container">
+    <div class="column">
+      <strong><h1>Altmetric Badges</h1></strong>
+    </div>
+
+  </div>
+</header>
+
+<aside>
+	<div class="container">
+	<div class="column">
+
+  <p>Standard donut with DOI</p>
+  <div class="altmetric-embed" data-badge-type="donut" data-badge-details="right" data-doi="10.4324/9781315756240.ch1"></div>
+  <br><br>
+
+  <p>Scoreless donut with DOI</p>
+  <div class="altmetric-embed" data-no-score="true" data-badge-type="donut" data-doi="10.4324/9781315771854.ch2"></div>
+  <br><br>
+
+  <p>Altmetric badge with ISBN</p>
+  <div class="altmetric-embed" data-isbn="9781107435131"></div>
+  <br><br>
+
+  <p>Bar visualisation with ISBN 10</p>
+  <div class="altmetric-embed" data-badge-type="medium-bar" data-isbn="1-107-43513-7"></div>
+  <br><br>
+
+	<p>Simple text badge with ISBN</p>
+	<div class='altmetric-embed' data-badge-type='text' data-isbn='978-0-262-30252-4'></div>
+	<br><br>
+
+	<p>Text with popover with ISBN 10</p>
+	<div id="badge_to_style" class="altmetric-embed" data-badge-type="text" data-badge-popover="right" data-isbn="1-316-16101-3"></div>
+
+  <p>Umich press</p>
+  <div class='altmetric-embed' data-badge-type="donut" data-template='umichpress' data-doi='10.1016/S0140-6736(11)61619-x'></div>
+
+  <p>Umich ACLS</p>
+  <div class='altmetric-embed' data-badge-type="donut" data-template='umichacls' data-doi='10.1016/S0140-6736(11)61619-x'></div>
+
+	<style>
+	#badge_to_style span, a:hover  {
+	    font-style: italic;
+	    color: #336699;
+	}
+	#badge_to_style span:before {
+	    content: "Altmetric score of ";
+	}
+	</style>
+  <br><br>
+
+	<p>Text badge with details on right ISBN 10</p>
+	<div class="altmetric-embed" data-badge-type="text" data-badge-details="right" data-isbn="1-107-43513-7"></div>
+	<br><br>
+
+	<p>Invalid ISBN</p>
+	<div class="altmetric-embed" data-badge-type="text" data-badge-popover="left" data-isbn="lalala"></div>
+	</div>
+	</div>
+
+</aside>
+
+<footer>
+  <div class="container">
+    <div class="column">
+    <strong><h5>About this site</h5></strong>
+    <p>Made by <a href="http://www.theportablebrain.com" target="_blank">JL</a> and JW.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

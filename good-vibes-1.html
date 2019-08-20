@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Altmetric Badges - LI</title>
+  <title>The Good Vibe Generator</title>
   <meta name="description" content="A good vibe generator.">
   <meta name="author" content="The Portable Brain">
   <meta name="robots" content="noindex,nofollow"/>
@@ -25,7 +25,7 @@
 
   <script src="javascripts/jquery-1.11.1.js"></script>
   <script src="javascripts/phraseGenerator.js"></script>
-  <script src="https://dluwcim6augrb.cloudfront.net/assets/embed-0e715273c5569ce0ed142307547f774c.js"></script>
+
 </head>
 <body>
 
@@ -34,7 +34,9 @@
 <header>
   <div class="container">
     <div class="column">
-      <strong><h1>Altmetric Badges</h1></strong>
+      <strong><h1>The Good Vibe Generator</h1></strong>
+      <h3>Hey, you!</h3>
+      <p>Hope you're ready to feel all warm and fuzzy inside.</p>
     </div>
 
   </div>
@@ -43,53 +45,26 @@
 <aside>
 	<div class="container">
 	<div class="column">
-
-  <p>DOI - new code</p>
-<span class="__dimensions_badge_embed__" data-doi="10.1001/jama.2016.9797"></span><script async src="http://altmetric-dimensions.dsci.it/badge.js" charset="utf-8"></script>
-  <br><br>
-
-  <p>PMID - new code</p>
-<span class="__dimensions_badge_embed__" data-pmid="12345"></span><script async src="http://altmetric-dimensions.dsci.it/badge.js" charset="utf-8"></script>
-  <br><br>
-
-
-  <p>Scoreless donut with DOI</p>
-  <div class="altmetric-embed" data-no-score="true" data-badge-type="donut" data-doi="10.4324/9781315771854.ch2"></div>
-  <br><br>
-
-  <p>Altmetric badge with ISBN</p>
-  <div class="altmetric-embed" data-isbn="9781107435131"></div>
-  <br><br>
-
-  <p>Bar visualisation with ISBN 10</p>
-  <div class="altmetric-embed" data-badge-type="medium-bar" data-isbn="1-107-43513-7"></div>
-  <br><br>
-
-	<p>Simple text badge with ISBN</p>
-	<div class='altmetric-embed' data-badge-type='text' data-isbn='978-0-262-30252-4'></div>
-	<br><br>
-
-	<p>Text with popover with ISBN 10</p>
-	<div id="badge_to_style" class="altmetric-embed" data-badge-type="text" data-badge-popover="right" data-isbn="1-316-16101-3"></div>
-	<style>
-	#badge_to_style span, a:hover  {
-	    font-style: italic;
-	    color: #336699;
-	}
-	#badge_to_style span:before {
-	    content: "Altmetric score of ";
-	}
-	</style>
-  <br><br>
-
-	<p>Text badge with details on right ISBN 10</p>
-	<div class="altmetric-embed" data-badge-type="text" data-badge-details="right" data-isbn="1-107-43513-7"></div>
-	<br><br>
-
-	<p>Invalid ISBN</p>
-	<div class="altmetric-embed" data-badge-type="text" data-badge-popover="left" data-isbn="lalala"></div>
+	<br>
+	<center><p id="phraseText">Please enter the secret password to proceed.</p>
+  <span class="input input--hoshi">
+    <input id="password" placeholder="Enter password" class="input__field input__field--hoshi" type="text" />
+    <label class="input__label input__label--hoshi input__label--hoshi-color-1"></span>
+	<br><a class="button2" href="good-vibes.html" onclick="javascript:return validatePass()">Abracadabra!</a></center>
 	</div>
 	</div>
+<script>
+function validatePass(){
+    if(document.getElementById('password').value === '1c1ngh0w3r'){
+        return true;
+    }else{
+        alert('Sorry, that is the wrong password!');
+        return false;
+    }
+}
+</script>
+
+<!--<input id="password" type="text" placeholder="Enter password">-->
 
 </aside>
 
